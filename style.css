@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px #888;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 14px 16px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 14px 16px;
+  font-weight: bold;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.dropdown {
+  float: left;
+}
+
+.sub {
+  position: fixed;
+  background-color: yellow;
+  display: none;
+}
+
+.sub a {
+  display: block;
+  /* clear: both; */
+  float: none;
+}
+
+.navbar a:hover,
+.btn:hover {
+  background-color: red;
+  color: black;
+}
+
+.dropdown:hover .sub {
+  display: block;
+}
+
+.welcome {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome div {
+  width: 40%;
+  /* margin-top: 100px; */
+}
+
+.welcome h1 {
+  color: tomato;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.welcome p {
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.welcome button,
+.form .btn {
+  background: #333;
+  color: white;
+  padding: 8px 30px;
+  font-size: 17px;
+  border: 3px solid #555;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.welcome img {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.activity {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.activity > div {
+  width: 25%;
+  margin: 10px;
+}
+
+.activity img {
+  border-radius: 30px;
+}
+
+.activity h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.activity span {
+  color: red;
+}
+
+.activity p {
+  color: #777;
+}
+
+.activity1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.activity1 div {
+  width: 40%;
+  background-color: #333;
+  margin: 5px;
+  color: #fff;
+  padding: 20px 17px;
+  border-radius: 20px;
+}
+
+.activity1 p {
+  color: #ddd;
+  margin-top: 10px;
+}
+
+.cele {
+  display: flex;
+  justify-content: center;
+  background: tomato;
+  padding: 60px 0px;
+}
+
+.cele div {
+  width: 15%;
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.cele img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+#cele,
+#about,
+#gallery,
+#contact {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 35px;
+}
+
+.cele h1 {
+  margin-top: 15px;
+}
+
+.cele p {
+  margin-top: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about div {
+  width: 30%;
+  margin: 50px 10px;
+  text-align: right;
+}
+
+.about h1 {
+  font-size: 25px;
+}
+
+.about span {
+  color: red;
+}
+
+.about h3 {
+  margin-top: 20px;
+}
+
+.about p {
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.about img {
+  margin-left: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery div {
+  width: 20%;
+  margin: 3px 6px;
+}
+
+.contact {
+  display: flex;
+}
+
+.map {
+  width: 70%;
+}
+
+.form {
+  width: 30%;
+}
+
+.form input {
+  width: 95%;
+  height: 40px;
+  font-family: cursive;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.form textarea {
+  width: 95%;
+  font-family: cursive;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: tomato;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}
+
+.top {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  background: #444;
+  color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  bottom: 100px;
+  right: 50px;
+  position: fixed;
+}
